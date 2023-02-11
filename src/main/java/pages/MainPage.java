@@ -37,10 +37,6 @@ public class MainPage extends AbsBasePage<MainPage>  {
         PageFactory.initElements(driver, this);
     }
 
-    public boolean isMainPageOpened() {
-        return phone.isEnabled();
-    }
-
     public String convertListOfDatesForCoursesAndReturnNearestDate (ArrayList listOfCoursesByDateFull, String nearest) throws Exception{
         ArrayList<String> dateList = new ArrayList<>();
         ArrayList<LocalDate> localDateList = new ArrayList<>();

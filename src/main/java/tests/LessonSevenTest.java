@@ -11,7 +11,6 @@ public class LessonSevenTest extends BaseTest {
 
         for(int i = 0; i < 2; i++){
             mainPage.open();
-            mainPage.isMainPageOpened();
             if(i == 0){
                 //nearest course
                 mainPage.getNearestCours("min");

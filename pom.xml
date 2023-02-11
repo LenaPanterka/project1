@@ -120,11 +120,4 @@
             </plugin>
         </plugins>
     </build>
-    <distributionManagement>
-        <snapshotRepository>
-            <id>org.apache.maven.plugins</id>
-            <name>maven-deploy-plugin</name>
-            <url>file://${user.home}/.m2/repository</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
